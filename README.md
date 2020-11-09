@@ -18,8 +18,6 @@ Java
 ## Week 2. Get started
 ### Codelab 1.1: Android Studio and Hello World.
  <li> <a href="https://github.com/shpoon19/IntelligentMobile/tree/HelloToast">Hello World Classwork</a></li>
-### Hello World Homework- Solution Code
-The Hello world homework app has one textview. The main of the assignment is to introduce beginners to debuging. When the app is debugged, it should be able to display Hello World in the Logcat console as shown below.
 
 ### Pre-requisites
 To execute this app you should be familiar with creating and running apps in Android Studio.
