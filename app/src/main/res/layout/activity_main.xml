@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/collect"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/toast"
+            android:onClick="showToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toast"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:background="@android:color/darker_gray"
+            android:onClick="Reset"
+            android:text="@string/zero"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/count"
+            android:textSize="24sp"
+            android:layout_marginTop="150dp"
+            android:onClick="showCount"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/showCount"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/_0"
+        android:layout_toEndOf="@+id/collect"
+        android:textSize="160sp"
+        android:background="#FFF000"
+        android:textColor="@color/design_default_color_primary"
+        android:gravity="center"/>
+
+</RelativeLayout>
