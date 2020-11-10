@@ -21,8 +21,7 @@ Java
 
 ## Week 3. Layout and Resources
 <li><a href="https://github.com/shpoon19/IntelligentMobile/blob/ToastClasswork/README.md">Hello Toast</a>
-
-Result
+<li><a href="https://github.com/shpoon19/IntelligentMobile/tree/HelloConstrain">Hello Constraint Homework</a>
 
 ## Week 8: Cards and Colors
 ### 5.2: Cards and Colors
