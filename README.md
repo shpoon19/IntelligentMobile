@@ -19,11 +19,8 @@ Java
 ### Codelab 1.1: Android Studio and Hello World.
  <li> <a href="https://github.com/shpoon19/IntelligentMobile/tree/HelloToast">Hello World Classwork</a></li>
 
-### Pre-requisites
-To execute this app you should be familiar with creating and running apps in Android Studio.
-
-### Getting Started
-Download and open the app in Android Studio.
+## Week 3. Layout and Resources
+<li><a href="https://github.com/shpoon19/IntelligentMobile/blob/ToastClasswork/README.md">Hello Toast</a>
 
 Result
 
