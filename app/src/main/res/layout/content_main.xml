@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:text="@string/droid_desserts"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/donut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/donut_circle"
+            android:onClick="showDonutOrder"
+            android:layout_marginLeft="24sp"
+            android:layout_marginStart="24sp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/this_donut_image" />
+
+        <TextView
+            android:id="@+id/donut_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/glaced_are_glaced_sprinkled_with_candy"
+            android:layout_toEndOf="@+id/donut"
+            android:layout_toRightOf="@+id/donut"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ice_cream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showIceCreamOrder"
+            app:srcCompat="@drawable/icecream_circle"
+            android:layout_marginLeft="24sp"
+            android:layout_marginStart="24sp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/this_is_ice_cream_image" />
+
+        <TextView
+            android:id="@+id/ice_cream_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ice_cream_sandwiches_have_chocolate"
+            android:layout_marginLeft="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_toEndOf="@+id/ice_cream"
+            android:layout_toRightOf="@+id/ice_cream"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/froyo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showFroyoOrder"
+            android:layout_marginLeft="24sp"
+            android:layout_marginStart="24sp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/froyo_circle"
+            android:contentDescription="@string/this_is_froyo_image" />
+
+        <TextView
+            android:id="@+id/froyo_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ice_cream_sandwiches_have_chocolate"
+            android:layout_marginLeft="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_toEndOf="@+id/froyo"
+            android:layout_toRightOf="@+id/froyo"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
