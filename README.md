@@ -29,8 +29,8 @@ Java
 
 
 ## Week 6. User Interaction
-<li><a href="https://github.com/shpoon19/IntelligentMobile/tree/DroidCafe">Droid Cafe</a>
- <li><a href=" https://github.com/shpoon19/IntelligentMobile/tree/DroidUserInput">Droid User Input</a>
+<li><a href="https://github.com/shpoon19/IntelligentMobile/tree/DroidCafe">Droid Cafe</a></li>
+<li><a href="https://github.com/shpoon19/IntelligentMobile/tree/DroidUserInput">Droid User Input</a></li>
 
 
 ## Week 8: Cards and Colors
