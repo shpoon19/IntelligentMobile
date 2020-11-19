@@ -32,7 +32,7 @@ Java
 <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/DroidCafe">Droid Cafe</a></li>
 <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/DroidUserInput">Droid User Input</a></li>
 
-## Week 6. User Navigation
+## Week 7. User Navigation
 <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/UserNavigation">User Navigation</a></li>
 
 
