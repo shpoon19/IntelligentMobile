@@ -32,6 +32,9 @@ Java
 <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/DroidCafe">Droid Cafe</a></li>
 <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/DroidUserInput">Droid User Input</a></li>
 
+## Week 6. User Navigation
+<li><a href="https://github.com/shpoon19/IntelligentMobile/tree/UserNavigation">User Navigation</a></li>
+
 
 ## Week 8: Cards and Colors
 ### 5.2: Cards and Colors
