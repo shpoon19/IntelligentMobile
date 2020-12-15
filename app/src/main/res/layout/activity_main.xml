@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/count_textview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/default_background"
+        android:gravity="center"
+        android:text="@string/default_count"
+        android:textColor="@android:color/white"
+        android:textSize="112sp"/>
+
+    <RelativeLayout
+        android:id="@+id/groupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/count_textview"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/black_background_button"
+            style="@style/AppTheme.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:onClick="changeBackground"
+            android:text="@string/black_button" />
+
+        <Button
+            android:id="@+id/red_background_button"
+            style="@style/AppTheme.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/black_background_button"
+            android:background="@color/red_background"
+            android:onClick="changeBackground"
+            android:text="@string/red_button"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/green_background_button"
+            style="@style/AppTheme.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/red_background_button"
+            android:background="#30EC05"
+            android:onClick="changeBackground"
+            android:text="@string/green_button"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/blue_background_button"
+            style="@style/AppTheme.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/green_background_button"
+            android:background="#112FF1"
+            android:onClick="changeBackground"
+            android:text="@string/blue_button"
+            tools:ignore="RtlCompat" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupButton"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/count_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:onClick="countUp"
+            android:text="@string/count_button"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="reset"
+            android:text="@string/reset_button"
+            android:layout_toEndOf="@+id/count_button"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+
+</RelativeLayout>
