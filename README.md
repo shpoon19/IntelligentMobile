@@ -40,6 +40,10 @@ Java
 #### 5.2: Cards and Colors
  <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/CardsandColors">Cards and Colors</a></li>
  
+ ### Week 10: Notifcations
+ <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/notifications">Notifications</a></li>
  
 ### Week 11: Shared Preferences
  <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/SharedPrefs">Shared Preferences</a></li>
+
+
