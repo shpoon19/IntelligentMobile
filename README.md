@@ -39,3 +39,8 @@ Java
 ## Week 8: Cards and Colors
 ### 5.2: Cards and Colors
  <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/CardsandColors">Cards and Colors</a></li>
+ 
+ 
+## Week 8: Shared Preferences
+### 5.2: Cards and Colors
+ <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/SharedPrefs">Shared Preferences</a></li>
