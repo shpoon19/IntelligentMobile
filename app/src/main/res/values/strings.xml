@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Product Wallet</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add_item">Add Product</string>
+    <string name="enter_items">Enter product Name</string>
+    <string name="enter_baby_item">Enter product</string>
+    <string name="enter_quantity">Enter quantity</string>
+    <string name="enter_color">Enter product color</string>
+    <string name="enter_size">Enter product Size</string>
+    <string name="save_item">Add Product</string>
+    <string name="text_sure">Do you want to delete product?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="edit_item">Update Product</string>
+    <string name="update_item">Update Product</string>
+    <string name="designed_by_shopoon">Designed by: Shpoon</string>
+    <string name="description">This app helps individuals to add, edit and delete products records from the database</string>
+    <string name="fab_description">FAB description</string>
+</resources>

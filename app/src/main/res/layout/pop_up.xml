@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_id"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24sp"
+            android:background="#88EDED"
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_items"
+                android:textStyle="bold|italic"
+                android:textSize="24sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#DB0909"/>
+
+            <EditText
+                android:id="@+id/babyItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:hint="@string/enter_baby_item"
+                android:textColor="#DB0909"
+                android:textColorHint="#FF4081"
+                android:autofillHints=""
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/itemQty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/babyItem"
+                android:hint="@string/enter_quantity"
+                android:inputType="number"
+                android:textColor="#DB0909"
+                android:textColorHint="#FF4081"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/itemColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/itemQty"
+                android:hint="@string/enter_color"
+                android:textColor="#DB0909"
+                android:textColorHint="#FF4081"
+                android:autofillHints=""
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/itemSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/itemColor"
+                android:hint="@string/enter_size"
+                android:inputType="textPersonName"
+                android:textColor="#DB0909"
+                android:textColorHint="#FF4081"
+                android:autofillHints=""
+                tools:ignore="TextFields" />
+
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/itemSize"
+                android:textSize="20sp"
+                android:background="#FF4081"
+                android:layout_marginTop="5dp"
+                android:text="@string/save_item"
+                android:textStyle="italic|bold"
+                android:textColorHint="#FF4081"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
