@@ -46,4 +46,7 @@ Java
 ### Week 11: Shared Preferences
  <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/SharedPrefs">Shared Preferences</a></li>
 
+### Week 11: FINAL PROJECT
+ <li><a href="https://github.com/shpoon19/IntelligentMobile/tree/FinalProject">Product Wallet</a></li>
+
 
