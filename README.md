@@ -1,7 +1,7 @@
 # IntelligentMobile
 
 Intelligent Mobile Application
-Online Book Librabry for High Schools. In order to contribute to the development of human capacity, the project aims at creating a mobile app thatsupports online library for primary and secondary school child in Afghanistan
+Product Wallet is a basic app that helps people to save products that user(s) intend to buy. It helps users to easily check their product wallet when they want to buy the product. At the end of the semester, I would love to develop an application that will tackle such a problem
 
 ## Development Environment
 Andriod Studio
